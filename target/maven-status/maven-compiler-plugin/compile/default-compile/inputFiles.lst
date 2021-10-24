@@ -16,7 +16,6 @@ D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\sal
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\dto\BeauticianDto.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\dto\ServicesDto.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\service\ProductServicesImpl.java
-D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\exception\ShopsException.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\repository\ProductRepository.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\entity\Appointment.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\repository\AdminRepository.java
@@ -36,8 +35,8 @@ D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\sal
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\SalonSpa.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\controller\AdminController.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\entity\Services.java
-D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\exception\AdminExeption.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\controller\ServicesController.java
+D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\exception\CommonException.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\entity\Payment.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\exception\InvalidShopDataException.java
 D:\Software\Yaksh\spring-boot-crud-example-master\SalonSpa\src\main\java\com\salonspa\example\service\UserService.java

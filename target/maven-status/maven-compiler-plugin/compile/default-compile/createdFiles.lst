@@ -12,7 +12,6 @@ com\salonspa\example\entity\Appointment.class
 com\salonspa\example\exception\GlobalExceptionHandler.class
 com\salonspa\example\dto\ShopDto.class
 com\salonspa\example\exception\ShopIdNotFoundException.class
-com\salonspa\example\exception\AdminExeption.class
 com\salonspa\example\exception\InvalidShopDataException.class
 com\salonspa\example\service\AdminServiceImpl.class
 com\salonspa\example\repository\ServiceRepository.class
@@ -25,7 +24,6 @@ com\salonspa\example\dto\PaymentDto.class
 com\salonspa\example\service\AppointmentService.class
 com\salonspa\example\controller\ServicesController.class
 com\salonspa\example\service\ServicesServiceImpl.class
-com\salonspa\example\exception\ShopsException.class
 com\salonspa\example\controller\UserController.class
 com\salonspa\example\entity\Product.class
 com\salonspa\example\entity\Beautician.class
@@ -41,6 +39,7 @@ com\salonspa\example\service\ProductService.class
 com\salonspa\example\entity\Services.class
 com\salonspa\example\service\ShopServiceImpl.class
 com\salonspa\example\dto\AdminDto.class
+com\salonspa\example\exception\CommonException.class
 com\salonspa\example\service\ServicesService.class
 com\salonspa\example\dto\ServicesDto.class
 com\salonspa\example\entity\Shop.class
