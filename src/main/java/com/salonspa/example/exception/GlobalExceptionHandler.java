@@ -11,8 +11,8 @@ import com.salonspa.example.entity.ExceptionResponse;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-	@ExceptionHandler(ShopsException.class)
-	public ResponseEntity<ExceptionResponse> ShopHandler(ShopsException ex){
+	@ExceptionHandler(CommonException.class)
+	public ResponseEntity<ExceptionResponse> ShopHandler(CommonException ex){
 		ExceptionResponse resp = 
 				new ExceptionResponse(ex.getMessage(),System.currentTimeMillis(), HttpStatus.BAD_REQUEST.value());
 		

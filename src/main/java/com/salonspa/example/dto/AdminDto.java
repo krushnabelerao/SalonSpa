@@ -7,7 +7,7 @@ import com.sun.istack.NotNull;
 
 public class AdminDto {
 	@Id
-	private int adminId;
+	private Integer adminId;
 	@NotBlank
 	@NotNull
 	private String userName;
@@ -24,7 +24,7 @@ public class AdminDto {
 	@NotNull
 	private String password;
 	
-	public AdminDto(int adminId2, String userName2, String address2, String phoneNumber2, String email2,
+	public AdminDto(Integer adminId2, String userName2, String address2, String phoneNumber2, String email2,
 			String password2) {
 		this.adminId = adminId2;
 		this.userName = userName2;
