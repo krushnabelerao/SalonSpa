@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.salonspa.example.exception.TestUserException
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.535 s - in com.salonspa.example.exception.TestUserException
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.96 s - in com.salonspa.example.exception.TestUserException

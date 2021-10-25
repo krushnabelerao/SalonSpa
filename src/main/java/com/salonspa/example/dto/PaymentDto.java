@@ -66,6 +66,43 @@ public class PaymentDto {
 	public void setShopId(int shopId) {
 		this.shopId = shopId;
 	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		long temp;
+		temp = Double.doubleToLongBits(amount);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + paymentId;
+		result = prime * result + ((paymentMode == null) ? 0 : paymentMode.hashCode());
+		result = prime * result + shopId;
+		result = prime * result + userId;
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		PaymentDto other = (PaymentDto) obj;
+		if (Double.doubleToLongBits(amount) != Double.doubleToLongBits(other.amount))
+			return false;
+		if (paymentId != other.paymentId)
+			return false;
+		if (paymentMode == null) {
+			if (other.paymentMode != null)
+				return false;
+		} else if (!paymentMode.equals(other.paymentMode))
+			return false;
+		if (shopId != other.shopId)
+			return false;
+		if (userId != other.userId)
+			return false;
+		return true;
+	}
 	
 	
 }

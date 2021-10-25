@@ -88,6 +88,6 @@ public class AdminControllerTest {
 				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON);
 		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
-		yakshaAssert(currentTest(), count[0] == 0 ? true : false, businessTestFile);
+		yakshaAssert(currentTest(), count[0] == 1 ? true : false, businessTestFile);
 	}
 }
